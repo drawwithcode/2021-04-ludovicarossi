@@ -1,8 +1,123 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+
+/* mio font
+@font-face {
+  font-family: "Basteleur-Bold";
+  src: url(https://www.velvetyne.fr/fonts/basteleur/);
+} */
+
+h1 {
+  color: orangered;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Basteleur-Bold";
+}
+
+h2 {
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Basteleur-Bold";
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Basteleur-Bold";
+}
+
+/* posizione centrale immagini */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: auto;
+  max-height: 400px;
+  margin-top: 50px;
+}
+
+.title {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Basteleur-Bold";
+}
+
+.header {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Basteleur-Bold";
+  white-space: nowrap;
+}
+
+/* posizione centrale bottoni */
+.parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* bottoni GO! e restart */
+.button {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+/* bottoni risposte */
+.answer {
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.left {
+  margin-left: 45%;
+  background-color: orangered;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* bottoni link esterno */
+.check {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 6px;
+  margin: 10px;
+  cursor: pointer;
 }
