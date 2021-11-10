@@ -123,5 +123,5 @@ function cerealormilk() {
 function theend() {
   let urlString = window.location.origin;
   let url = new URL(urlString);
-  window.open(url + "./theend.html");
+  window.open(url + "/theend.html");
 }
